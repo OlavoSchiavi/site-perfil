@@ -20,6 +20,16 @@ header {
   background-size: cover;
   filter:grayscale();
 }
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h2{
     text-transform: capitalize;
 }
@@ -77,4 +87,23 @@ nav button:hover {
   width: 50px;
   object-fit: cover;
   object-position: center;
+}
+.text1, .diplomas, .estudos, .text2, .projetos{
+  padding: 10px;
+}
+.text2{
+  display: flex;
+  gap: 10px;
+}
+.text2 img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+h2{
+  font-size: 30px;
+}
+.text1,.text2 p{
+  text-align: justify;
 }
