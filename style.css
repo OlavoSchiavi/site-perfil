@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+  font-size: 20px;
+  color: black;
+  font-style:normal;
+  font-weight: normal;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px;
+  height: 200px;
+  background-color: rgb(77, 77, 77);
+  background-image: url("/img/montain.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter:grayscale();
+}
+h2{
+    text-transform: capitalize;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+nav div {
+  background-color: black;
+  width: 1px;
+}
+nav button {
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  height: 30px;
+  width: 100px;
+  transition: ease-in-out 0.1s;
+}
+nav button:hover {
+  background-color: rgba(240, 248, 255, 0.603);
+}
+.search-area {
+  display: flex;
+}
+.search-area input[type="search"] {
+  width: 50px;
+}
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100px;
+  background-color: rgb(156, 156, 156);
+}
+.contato button {
+  height: 80px;
+  width: 80px;
+  border: none;
+  background-color: transparent;
+  transition: ease-in-out .1s;
+}
+.contato button:hover{
+    background-color: rgba(0, 255, 255, 0.658);
+    border-radius: 10px;
+}
+.contato p {
+  font-size: 15px;
+  border-radius: 10px;
+}
+.contato img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+}
